@@ -2,6 +2,13 @@
 name = "async-timers"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/Blyschak/async-timers"
+license = "The Unlicense"
+keywords = ["async-io", "tokio", "timers"]
+categories = ["asynchronous"]
+description = "Provides asynchronous timer primitives"
+homepage = "https://github.com/Blyschak/async-timers"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
