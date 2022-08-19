@@ -11,7 +11,7 @@
 [licence-badge]: https://img.shields.io/badge/license-Unlicense-blue.svg
 [licence-url]: https://github.com/Blyschak/async-timers/blob/master/LICENSE
 [actions-badge]: https://github.com/Blyschak/async-timers/actions/workflows/build.yml/badge.svg
-[actions-url]: https://github.com/Blyschak/async-timers/actions?query=workflow%3Abuild+branch%3Amain
+[actions-url]: https://github.com/Blyschak/async-timers/actions?query=branch%3Amain
 
 This crate provides ```PeriodicTimer``` and ```OneshotTimer``` to be used in ```async``` context (tokio).
 
