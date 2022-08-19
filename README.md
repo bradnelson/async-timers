@@ -1,5 +1,17 @@
 # Async Timers
 
+[![Crates.io][crates-badge]][crates-url]
+[![Unlicensed][licence-badge]][licence-url]
+[![Build Status][actions-badge]][actions-url]
+[![codecov](https://codecov.io/github/Blyschak/async-timers/branch/main/graph/badge.svg?token=322R7ISIMY)](https://codecov.io/github/Blyschak/async-timers)
+
+[crates-badge]: https://img.shields.io/badge/crates.io-v0.1.0-blue
+[crates-url]: https://crates.io/crates/async-timers
+[licence-badge]: https://img.shields.io/badge/license-Unlicense-blue.svg
+[licence-url]: https://github.com/Blyschak/async-timers/blob/master/LICENSE
+[actions-badge]: https://github.com/Blyschak/async-timers/actions/workflows/build.yml/badge.svg
+[actions-url]: https://github.com/Blyschak/async-timers/actions?query=workflow%3ACI+branch%3Amaster
+
 This crate provides ```PeriodicTimer``` and ```OneshotTimer``` to be used in ```async``` context (tokio).
 
 # Usage
