@@ -4,6 +4,7 @@
 [![Unlicensed][licence-badge]][licence-url]
 [![Build Status][actions-badge]][actions-url]
 [![codecov](https://codecov.io/github/Blyschak/async-timers/branch/main/graph/badge.svg?token=322R7ISIMY)](https://codecov.io/github/Blyschak/async-timers)
+![LoC](https://raw.githubusercontent.com/Blyschak/async-timers/badges/badge.svg)
 
 [crates-badge]: https://img.shields.io/badge/crates.io-v0.1.0-blue
 [crates-url]: https://crates.io/crates/async-timers
