@@ -18,8 +18,9 @@ This crate provides ```PeriodicTimer``` and ```OneshotTimer``` to be used in ```
 # Usage
 
 ```rust
-use async_timers::OneshotTimer;
-use tokio::time::{Duration, timeout};
+use async_timers::{OneshotTimer, PeriodicTimer};
+use std::time::Instant;
+use tokio::time::Duration;
 
 #[tokio::main]
 async fn main() {
@@ -34,7 +35,7 @@ async fn main() {
     let mut periodic_timer = PeriodicTimer::started(Duration::from_secs(3));
 
     let mut start = Instant::now();
-    let mut i = 1;
+    let mut i = 0;
     loop {
         tokio::select! {
             _ = oneshot_timer.tick() => {

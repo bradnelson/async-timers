@@ -76,7 +76,7 @@ impl PeriodicTimer {
         Self::Stopped
     }
 
-    /// Start the timer with give `period`
+    /// Start the timer with given `period`
     pub fn start(&mut self, period: Duration) {
         *self = Self::started(period);
     }
@@ -115,12 +115,12 @@ impl PeriodicTimer {
 ///     // approximately 10ms have elapsed.
 ///
 ///     let result = timeout(Duration::from_millis(100), timer.tick()).await;
-///     assert!(result.is_err(), "Timeout should occur since timer is running");
+///     assert!(result.is_err(), "Timeout should occur since timer is expired");
 ///
 ///     timer.schedule(Duration::from_millis(30));
 ///
 ///     let result = timeout(Duration::from_millis(100), timer.tick()).await;
-///     assert!(result.is_ok(), "Timeout should not occur since timer is stopped");
+///     assert!(result.is_ok(), "Timeout should not occur since timer has been scheduled");
 /// }
 /// ```
 #[derive(Default, Debug)]
