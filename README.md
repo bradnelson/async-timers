@@ -2,6 +2,7 @@
 
 [![Crates.io][crates-badge]][crates-url]
 [![Unlicensed][licence-badge]][licence-url]
+[![Documentation](https://docs.rs/async-timers/badge.svg)](https://docs.rs/async-timers)
 [![Build Status][actions-badge]][actions-url]
 [![codecov](https://codecov.io/github/Blyschak/async-timers/branch/main/graph/badge.svg?token=322R7ISIMY)](https://codecov.io/github/Blyschak/async-timers)
 ![LoC](https://raw.githubusercontent.com/Blyschak/async-timers/badges/badge.svg)
