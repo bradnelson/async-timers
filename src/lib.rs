@@ -66,9 +66,7 @@ pub enum PeriodicTimer {
 impl PeriodicTimer {
     /// Create started timer with the given `period`
     pub fn started(period: Duration) -> Self {
-        let mut interval = interval(period);
-        interval.reset();
-        Self::Started(interval)
+        Self::Started(interval(period))
     }
 
     /// Create stopped timer
