@@ -107,10 +107,10 @@ impl Future for NeverExpire {
 ///     assert!(result.is_err(), "Timeout should occur since timer is stopped");
 /// }
 /// ```
-#[derive(Default, Debug)]
+#[derive(Debug)]
 pub enum PeriodicTimer {
     Started(Interval),
-    #[default]
+    //#[default]
     Stopped,
 }
 
@@ -172,10 +172,10 @@ impl PeriodicTimer {
 ///     assert!(result.is_ok(), "Timeout should not occur since timer has been scheduled");
 /// }
 /// ```
-#[derive(Default, Debug)]
+#[derive(Debug)]
 pub enum OneshotTimer {
     Scheduled(Instant),
-    #[default]
+    //#[default]
     Expired,
 }
 
